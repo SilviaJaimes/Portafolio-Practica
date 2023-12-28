@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+    background-color: black;
+}
+
+/* Parrafos, titulos e iconos */
+    .link {
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .link:hover {
+        color:#BC8CF2;
+    }
+
+    .link:after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border-radius: 2px;
+        background-color: #BC8CF2;
+        transform: scaleX(0); 
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .link:active:after {
+        transform: scaleX(1);
+    }
+
+    .titulo {
+        color:#BC8CF2;
+        font-size: 20px;
+    }
+
+    .parrafo1, .about, .info, .details, .parrafo-card, .parrafo-info {
+        color: #ffffff;
+        font-size: 17px;
+        padding-top: 1%;
+    }
+    
+    .cant {
+        color: #BC8CF2;
+        font-size: 30px;
+    }
+    
+    .titulo3 {
+        color: #ffffff;
+        font-size: 40px;
+        padding-top: 1%;
+    }
+
+    .titulo2 {
+        padding-top: 18%;
+        color: #BC8CF2;
+        font-size: 24px;
+    }
+
+    .name {
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .part1 {
+        font-size: 40px;
+        color: #BC8CF2;
+    }
+
+    .part2 {
+        color: #ffffff;
+    }
+
+    .porcent {
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+
+    .skill {
+        margin-top: 2%;
+    }
+
+    .skill {
+        color: #ffffff;
+    }
+
+    .cards {
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 22px;
+    }
+
+    .titulo3 {
+        color: #BC8CF2;
+        font-size: 22px;
+    }
+
+    .svg-lupa {
+        color: #BC8CF2;
+        margin-top: 5%;
+    }
+
+
+/* Menús */
+    .navbar {
+        position: fixed;
+    }
+
+    .scrollbar-hide {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .bg-background\/70 {
+        background-color: hsl(var(--nextui-background) / 0);
+    }
+
+    .tab-item {
+        font-size: 20px;
+    }
+
+
+/* Imagenes */
+    .divImagen {
+        padding-left: 10%;
+    }
+
+    .imagen {
+        width: 400px;
+        border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    }
+
+    .img {
+        height: 420px;
+        border: 10px solid #BC8CF2;
+    }
+
+    .imagen-info {
+        border-radius: 8px;
+    }
+
+
+/* Contenedores */
+    .container, .container2 {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+    }
+
+    .information {
+        margin-left: -4%;
+    }
+
+    .info-personal {
+        margin-top: 1%;
+    }
+
+    .container2 {
+        margin-top: 8%;
+    }
+
+    .num {
+        text-align: center;
+        background-color: rgb(26, 26, 26);
+        padding: 4%;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+
+    .detail {
+        margin-left: 10%;
+    }
+
+    .detail2 {
+        margin-left: 2%;
+    }
+
+    .heading {
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .container-skills, .container-services, .container-portfolio, .container-test, .container-blog, .container-contacto {
+        margin: 3% 5% 3% 5%;
+    }
+
+    .container-info {
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+
+
+/* Botones */
+    .boton1 {
+        margin-top: 3%;
+        font-size: 17px;
+        width: 170px;
+        background-color: #bc8cf200;
+        color: #BC8CF2;
+        border: 1px solid #BC8CF2;
+    }
+
+
+/* Cards */
+    .card-principal {
+        background-color: rgba(0, 0, 0, 0);
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+    }
+
+    .card-principal:hover {
+        background:  #BC8CF2;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+    .card-info .container-info {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    .card-info:hover .container-info {
+        opacity: 1;
+        visibility: visible;
+    }
