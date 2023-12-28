@@ -38,17 +38,17 @@
         font-size: 20px;
     }
 
-    .parrafo1, .about, .info, .details, .parrafo-card, .parrafo-info {
+    .parrafo1, .about, .info, .details, .parrafo-card, .parrafo-info, .parrafo4 {
         color: #ffffff;
         font-size: 17px;
         padding-top: 1%;
     }
-    
+
     .cant {
         color: #BC8CF2;
         font-size: 30px;
     }
-    
+
     .titulo3 {
         color: #ffffff;
         font-size: 40px;
@@ -71,8 +71,17 @@
         color: #BC8CF2;
     }
 
-    .part2 {
+    .part2, .titulo4, .subtitulo {
         color: #ffffff;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        margin-top: 2%;
+    }
+
+    .parrafo4 {
+        display: flex;
     }
 
     .porcent {
@@ -103,11 +112,19 @@
         font-size: 22px;
     }
 
+    .titulo4 {
+        font-size: 30px;
+    }
+
     .svg-lupa {
         color: #BC8CF2;
         margin-top: 5%;
     }
 
+    .svg-contact {
+        color: #BC8CF2;
+        margin-right: 2%;
+    }
 
 /* Menús */
     .navbar {
@@ -192,6 +209,11 @@
         margin: 3% 5% 3% 5%;
     }
 
+    .container-contacto {
+        padding-bottom: 5%;
+        margin-bottom: 0;
+    }
+
     .container-info {
         padding-top: 12%;
         padding-bottom: 12%;
@@ -206,6 +228,11 @@
         background-color: #bc8cf200;
         color: #BC8CF2;
         border: 1px solid #BC8CF2;
+    }
+
+    .input1 {
+        font-size: 17px;
+        background-color: #bc8cf200;
     }
 
 
