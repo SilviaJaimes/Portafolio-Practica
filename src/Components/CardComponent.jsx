@@ -11,7 +11,7 @@ function CardComponent({descripcion, titulo, icon, icon2}) {
                     </svg>
                 </center>
                 <h4 className="font-bold text-xl title2">{titulo}</h4>
-                <p className="parrafo-card text-[17px] text-[#ffffff]">{descripcion}</p>
+                <p className="parrafo-card text-[17px] text-[#ffffff] pt-[1%]">{descripcion}</p>
             </CardBody>
         </Card>
     );

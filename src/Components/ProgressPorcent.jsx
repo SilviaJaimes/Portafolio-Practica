@@ -2,7 +2,7 @@ import { Progress } from "@nextui-org/react";
 
 function ProgressPorcent({descripcion, porcentaje}) {
     return(
-        <div className="skill text-[#ffffff]">
+        <div className="skill text-[#ffffff] mt-[2%]">
             <Progress 
                 aria-label="Loading..." 
                 label={descripcion}

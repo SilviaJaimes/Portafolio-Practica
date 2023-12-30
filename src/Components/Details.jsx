@@ -23,7 +23,7 @@ const Details = ({limite, tiempo, description}) => {
             <h2 className="cant font-bold text-4xl text-[#BC8CF2]">
                 {experiencia}+
             </h2>
-            <p className="details font-bold text-xl text-[#ffffff]">
+            <p className="details font-bold text-xl text-[#ffffff] pt-[1%]">
                 {description}
             </p>
         </div>

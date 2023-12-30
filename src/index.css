@@ -28,37 +28,13 @@
         transform: scaleX(1);
     }
 
-    .parrafo1, .about, .info, .details, .parrafo-card, .parrafo-info, .parrafo4 {
-        padding-top: 1%;
-    }
-
     .parrafo4 {
         display: flex;
-    }
-
-    .skill, .subtitulo {
-        margin-top: 2%;
     }
 
     .cards {
         text-align: center;
     }
-
-    .svg-lupa {
-        margin-top: 5%;
-    }
-
-    .svg-contact {
-        margin-right: 2%;
-    }
-
-    .detail2 {
-        margin-left: 2%;
-    }
-
-    .icon:hover {
-        background-color: #ffffff;
-    } 
 
 /* Menús */
     .navbar {
@@ -74,10 +50,6 @@
     }
 
 /* Imagenes */
-    .divImagen {
-        padding-left: 10%;
-    }
-
     .imagen {
         width: 400px;
         border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
@@ -97,18 +69,6 @@
         padding: 2% 5% 0% 5%;
     }
 
-    .information {
-        margin-left: -4%;
-    }
-
-    .info-personal {
-        margin-top: 1%;
-    }
-
-    .container2 {
-        margin-top: 8%;
-    }
-
     .num {
         text-align: center;
         background-color: #222222;
@@ -116,23 +76,13 @@
         margin-bottom: 7%;
     }
 
-    .detail {
-        margin-left: 10%;
-    }
-
     .heading {
         background-color: rgba(0, 0, 0, 0);
         text-align: center;
-        margin-bottom: 4%;
     }
 
     .container-skills, .container-services, .container-portfolio, .container-test, .container-blog, .container-contacto {
         margin: 3% 5% 3% 5%;
-    }
-
-    .container-contacto {
-        padding-bottom: 5%;
-        margin-bottom: 0;
     }
 
     .container-info {
@@ -141,7 +91,6 @@
 
 /* Botones */
     .boton1 {
-        margin-top: 3%;
         border: 1px solid #BC8CF2;
     }
 
