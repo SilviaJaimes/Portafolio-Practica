@@ -7,11 +7,6 @@
 }
 
 /* Parrafos, titulos e iconos */
-    .link {
-        color: #ffffff;
-        font-size: 18px;
-    }
-
     .link:hover {
         color:#BC8CF2;
     }
@@ -33,98 +28,37 @@
         transform: scaleX(1);
     }
 
-    .titulo {
-        color:#BC8CF2;
-        font-size: 20px;
-    }
-
     .parrafo1, .about, .info, .details, .parrafo-card, .parrafo-info, .parrafo4 {
-        color: #ffffff;
-        font-size: 17px;
         padding-top: 1%;
-    }
-
-    .cant {
-        color: #BC8CF2;
-        font-size: 30px;
-    }
-
-    .titulo3 {
-        color: #ffffff;
-        font-size: 40px;
-        padding-top: 1%;
-    }
-
-    .titulo2 {
-        padding-top: 18%;
-        color: #BC8CF2;
-        font-size: 24px;
-    }
-
-    .name {
-        color: #ffffff;
-        font-size: 30px;
-    }
-
-    .part1 {
-        font-size: 40px;
-        color: #BC8CF2;
-    }
-
-    .part2, .titulo4, .subtitulo {
-        color: #ffffff;
-    }
-
-    .subtitulo {
-        font-size: 20px;
-        margin-top: 2%;
     }
 
     .parrafo4 {
         display: flex;
     }
 
-    .porcent {
-        color: #ffffff;
-        display: flex;
-        justify-content: space-between;
-        font-size: 20px;
-    }
-
-    .skill {
+    .skill, .subtitulo {
         margin-top: 2%;
-    }
-
-    .skill {
-        color: #ffffff;
     }
 
     .cards {
         text-align: center;
     }
 
-    .title2 {
-        font-size: 22px;
-    }
-
-    .titulo3 {
-        color: #BC8CF2;
-        font-size: 22px;
-    }
-
-    .titulo4 {
-        font-size: 30px;
-    }
-
     .svg-lupa {
-        color: #BC8CF2;
         margin-top: 5%;
     }
 
     .svg-contact {
-        color: #BC8CF2;
         margin-right: 2%;
     }
+
+    .detail2 {
+        margin-left: 2%;
+    }
+
+    .icon:hover {
+        background-color: #ffffff;
+    } 
 
 /* Menús */
     .navbar {
@@ -138,11 +72,6 @@
     .bg-background\/70 {
         background-color: hsl(var(--nextui-background) / 0);
     }
-
-    .tab-item {
-        font-size: 20px;
-    }
-
 
 /* Imagenes */
     .divImagen {
@@ -163,12 +92,9 @@
         border-radius: 8px;
     }
 
-
 /* Contenedores */
     .container, .container2 {
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 2%;
+        padding: 2% 5% 0% 5%;
     }
 
     .information {
@@ -185,18 +111,13 @@
 
     .num {
         text-align: center;
-        background-color: rgb(26, 26, 26);
-        padding: 4%;
+        background-color: #222222;
         margin-top: 3%;
         margin-bottom: 7%;
     }
 
     .detail {
         margin-left: 10%;
-    }
-
-    .detail2 {
-        margin-left: 2%;
     }
 
     .heading {
@@ -215,32 +136,19 @@
     }
 
     .container-info {
-        padding-top: 12%;
-        padding-bottom: 12%;
+        padding: 12% 0% 12% 0%;
     }
-
 
 /* Botones */
     .boton1 {
         margin-top: 3%;
-        font-size: 17px;
-        width: 170px;
-        background-color: #bc8cf200;
-        color: #BC8CF2;
         border: 1px solid #BC8CF2;
     }
-
-    .input1 {
-        font-size: 17px;
-        background-color: #bc8cf200;
-    }
-
 
 /* Cards */
     .card-principal {
         background-color: rgba(0, 0, 0, 0);
-        color: #ffffff;
-        border: 1px solid #ffffff;
+        border: 1px solid #ffffff9d;
         border-radius: 6px;
     }
 

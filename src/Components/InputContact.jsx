@@ -1,10 +1,6 @@
-import {Input} from "@nextui-org/react";
-
-function InputContact({ descripcion }) {
+function InputContact({ descripcion, tipo, altura }) {
     return (
-        <div className="flex w-full flex-wrap md:flex-nowrap gap-4 input1">
-            <Input type="email" label={descripcion} />
-        </div>
+        <input type={tipo} name="" id="" placeholder={descripcion} className="w-full p-3 bg-[#222222] text-[#ffffff] mb-4" style={{height:altura}}/>
     );
 }
 

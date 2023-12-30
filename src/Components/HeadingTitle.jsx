@@ -1,11 +1,11 @@
 function HeadingTitle({descripcion, descripcion2}){
     return(
         <div className="heading">
-            <h2 className="part1 font-bold">
-              {descripcion}
-              <span className="part2"> {descripcion2}</span>
+            <h2 className="part1 font-bold text-4xl text-[#BC8CF2]">
+              {descripcion}{" "}
+              <span className="part2 text-[#ffffff] border-b-4 border-[#BC8CF2]">{descripcion2}</span>
             </h2>
-          </div>
+        </div>
     );
 }
 
