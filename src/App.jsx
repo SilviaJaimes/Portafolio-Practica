@@ -53,11 +53,6 @@ function App() {
               </Link>
             </NavbarItem>
             <NavbarItem className="navbarItem">
-              <Link className="link text-lg text-[#ffffff]" href="#blogs">
-                Blogs
-              </Link>
-            </NavbarItem>
-            <NavbarItem className="navbarItem">
               <Link className="link text-lg text-[#ffffff]" href="#contact">
                 Contact
               </Link>
