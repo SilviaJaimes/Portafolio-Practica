@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.body {
-    background-color: black;
-}
-
 /* Parrafos, titulos e iconos */
     .link:hover {
         color:#BC8CF2;
@@ -28,40 +24,18 @@
         transform: scaleX(1);
     }
 
-    .parrafo4 {
-        display: flex;
-    }
-
-    .cards {
-        text-align: center;
-    }
-
 /* Menús */
-    .navbar {
-        position: fixed;
+    .bg-background\/70 {
+        background-color: hsl(var(--nextui-background) / 0);
     }
 
     .scrollbar-hide {
         background-color: rgba(0, 0, 0, 0);
     }
 
-    .bg-background\/70 {
-        background-color: hsl(var(--nextui-background) / 0);
-    }
-
 /* Imagenes */
     .imagen {
-        width: 400px;
         border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
-    }
-
-    .img {
-        height: 420px;
-        border: 10px solid #BC8CF2;
-    }
-
-    .imagen-info {
-        border-radius: 8px;
     }
 
 /* Contenedores */
@@ -69,38 +43,15 @@
         padding: 2% 5% 0% 5%;
     }
 
-    .num {
-        text-align: center;
-        background-color: #222222;
-        margin-top: 3%;
-        margin-bottom: 7%;
-    }
-
-    .heading {
-        background-color: rgba(0, 0, 0, 0);
-        text-align: center;
-    }
-
     .container-skills, .container-services, .container-portfolio, .container-test, .container-blog, .container-contacto {
-        margin: 3% 5% 3% 5%;
+        margin: 5% 5% 3% 5%;
     }
 
     .container-info {
         padding: 12% 0% 12% 0%;
     }
 
-/* Botones */
-    .boton1 {
-        border: 1px solid #BC8CF2;
-    }
-
 /* Cards */
-    .card-principal {
-        background-color: rgba(0, 0, 0, 0);
-        border: 1px solid #ffffff9d;
-        border-radius: 6px;
-    }
-
     .card-principal:hover {
         background:  #BC8CF2;
         -webkit-transition: all 0.2s linear;

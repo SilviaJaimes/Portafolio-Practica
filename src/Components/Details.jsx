@@ -19,7 +19,7 @@ const Details = ({limite, tiempo, description}) => {
   }, []); 
 
   return (
-    <div className="num p-[6%]">
+    <div className="num p-[6%] mt-[3%] mb-[7%] text-center bg-[#222222]">
             <h2 className="cant font-bold text-4xl text-[#BC8CF2]">
                 {experiencia}+
             </h2>
